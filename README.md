@@ -11,7 +11,8 @@ This allows a county level comparison of social factors and health outcomes:
 *Premature death is anti-correlated with household income*
 
 
-I'm going to use this repository to collect some of my exploration of this and other data related to the social determinants of health.
+I'm going to use this repository to collect some of my exploration of this and other data related to the social determinants of health. 
+**Take a look at the Jupyter Notebook in this repo for additional information, and to see where the figures in this README came from.**
 
 ## The Data
 
