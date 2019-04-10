@@ -8,7 +8,7 @@ This allows a county level comparison of social factors and health outcomes:
 
 <img src="income.png" alt="income" width="400"/> <img src="lifelost.png" alt="lifelost" width="400"/>
 
-*Longevity is anti-correlated with household income*
+*Premature death is anti-correlated with household income*
 
 
 I'm going to use this repository to collect some of my exploration of this and other data related to the social determinants of health.
