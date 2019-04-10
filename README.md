@@ -2,7 +2,7 @@
 
 That factors like our day to day behavior and genetics affect our overall health outcomes is common knowledge. In recent decades, though, there's been a growing understanding that a person's health is tied to factors outside of their individual risk factors--our health is also greatly influenced by determinants that we inherit from the economic and social conditions in which we exist. 
 
-Insights into these determinants require connecting data from the individual level onto a larger collective scale, in order to paint a picture of the social influences that influence health outcomes. A really awesome sorce of data of this sort comes The the County Health Rankings & Roadmaps program, a collaboration between the Robert Wood Johnson Foundation and the University of Wisconsin Population Health Institute from which joins data from 20 different sources across the CDC, Census Bureau, Agriculture Department, FBI, and even the transportation department. 
+Insights into these determinants require connecting data from the individual level onto a larger collective scale, in order to paint a picture of the social influences that influence health outcomes. A really awesome sorce of data of this sort comes from the County Health Rankings & Roadmaps program, a collaboration between the Robert Wood Johnson Foundation and the University of Wisconsin Population Health Institute from which joins data from 20 different sources across the CDC, Census Bureau, Agriculture Department, FBI, and even the transportation department. 
 
 This allows a county level comparison of social factors and health outcomes:
 
@@ -57,12 +57,23 @@ One thing we can do is look at the features that are most important at explainin
 
 <img src="featureimportance.png" alt="importance" width="400"/>
 
-### F-score
+#### Univariate Tests
+Another way of selecting important features is by scoring features based on univariate statistical tests. 
+
+##### F-score
+For example, we can look at linear regression tests:
+
 <img src="kbest_fscore.png" alt="fscore" width="400"/>
 
-### Mutual Information
+##### Mutual Information
+The F-Score captures linear relationships. 
+We can also look at the mutual information to gather other dependencies:
+
 <img src="kbest_mi.png" alt="mi" width="400"/>
 
-### Drop Columns
+#### Drop Columns
+I also attempted a drop column approach. 
+While the above results are somewhat similar, the drop column approach results in very different results.
+
 <img src="dropcolumn.png" alt="dropcolumn" width="400"/>
 
