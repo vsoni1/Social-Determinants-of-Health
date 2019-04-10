@@ -1,6 +1,6 @@
 # Social Determinants of Health
 
-That factors like our day to day behavior and genetics affect our overall health outcomes is common knowledge. In recent decades, though, there's been a growing understanding that a person's health is tied to factors outside of their individual risk factors. Our health is also greatly influenced by determinants that we inherit from the economic and social conditions in which we exist. 
+That factors like our day to day behavior and genetics affect our overall health outcomes is common knowledge. In recent decades, though, there's been a growing understanding that a person's health is tied to factors outside of their individual risk factors--our health is also greatly influenced by determinants that we inherit from the economic and social conditions in which we exist. 
 
 Insights into these determinants require connecting data from the individual level onto a larger collective scale, in order to paint a picture of the social influences that influence health outcomes. A really awesome sorce of data of this sort comes The the County Health Rankings & Roadmaps program, a collaboration between the Robert Wood Johnson Foundation and the University of Wisconsin Population Health Institute from which joins data from 20 different sources across the CDC, Census Bureau, Agriculture Department, FBI, and even the transportation department. 
 
@@ -8,7 +8,7 @@ This allows a county level comparison of social factors and health outcomes:
 
 <img src="income.png" alt="income" width="400"/> <img src="lifelost.png" alt="lifelost" width="400"/>
 
-*Income is anti-correlated with household income*
+*Longevity is anti-correlated with household income*
 
 
 I'm going to use this repository to collect some of my exploration of this and other data related to the social determinants of health.
