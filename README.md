@@ -78,3 +78,19 @@ While the above results are somewhat similar, the drop column approach results i
 
 <img src="dropcolumn.png" alt="dropcolumn" width="400"/>
 
+# Bulding Stories
+
+Taking the approach I've taken so far, we start to build a sense of how different variables in this data set are connected to each other. 
+This may be a useful thing to understand for predicting outcomes based on data sets like this. 
+***How helpful is this in building an understanding and informing policies, though?***
+
+It seems like childhood poverty in a community is a huge factor for predicting the prevalence of premature deaths.
+The first thing you might think to do, then, is to attack the problem of childhood poverty.
+It's important to know, though, that any number of statistical tests like the ones I am doing in this notebook, can't really tell you the logical connection between these two measurements.
+Insights like this need to come from human engagement with the data.
+For example, childhood poverty may itself *result* from premature deaths, owing to the fact that the success of a child is tied to the presence of adults in their community to support them. 
+
+***Building stories, then, need to be guided by critical conversations between people who will actively engage with the data.***
+
+
+
